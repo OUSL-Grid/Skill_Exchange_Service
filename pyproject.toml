@@ -1,0 +1,19 @@
+[project]
+name = "skill-exchange-service"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Hirunch", email = "hirucw707@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+]
+
+[project.scripts]
+skill-exchange-service = "skill_exchange_service:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
